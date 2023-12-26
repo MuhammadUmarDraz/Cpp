@@ -85,7 +85,7 @@ int main()
     Enqueue(3);
     Enqueue(4);
     Enqueue(5);
-    pop();
+    Dequeue();
     cout<<"Top value is: "<<Front_Value()<<endl;
     display();
 }
